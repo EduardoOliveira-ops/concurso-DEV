@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFF8F0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+section img {
+width: 250px;
+margin: 10px;
+border-radius: 10px;
+
+}
+
+.galeria-fotos {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria-fotos img {
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #b3027b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header img {
+    vertical-align: middle;
+    margin-right: 15px;
+    border-radius:10px ;
+    height: 60px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f5e9d8;
+}
+
+main section {
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #4b024b;
+    margin-bottom: 15px;
+}
+
+#home img {
+    display: block;
+    margin:30px auto;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#cardapio ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #666665;
+  outline: none;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2ca62c;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
