@@ -110,7 +110,8 @@ main h2 {
 
 label {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
+    margin-top: 10px;
     font-weight: 600;
 }
 
@@ -118,13 +119,15 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 8px 10px;
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
     resize: vertical;
     transition: border-color 0.3s ease;
+    
 }
 
 input[type="text"]:focus,
@@ -132,6 +135,7 @@ input[type="email"]:focus,
 textarea:focus {
   border-color: #666665;
   outline: none;
+
 }
 
 button {
@@ -158,8 +162,28 @@ footer {
     font-size: 0.9rem;
 }
 
+@media (max-width: 768px) {
 
+    header h1 {
+        font-size: 1.5rem;
+    }
 
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .galeria-fotos img {
+        width: 100%;
+        height: auto;
+    }
+
+}
 
 
 
